@@ -17,6 +17,6 @@ cronJob = require 'hubot-cronjob'
 module.exports = (robot) ->
   pattern = '* * * * 1-5'
   timezone = 'Europe/Amsterdam'
-  fn = robot.messageRoom 'general', 'TESTING'
+  fn = robot.messageRoom 'general', 'Testing a cron job...'
   console.log('cronjob')
   new cronJob pattern, timezone, fn

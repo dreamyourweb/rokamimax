@@ -1,6 +1,6 @@
 {
-  "name": "hubotslack",
-  "version": "0.0.0",
+  "name": "brobot",
+  "version": "0.0.1",
   "private": true,
   "author": "Bram den Teuling <bramdenteuling@gmail.com>",
   "description": "Orikami's robot",
@@ -18,7 +18,7 @@
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
     "hubot-shipit": "^0.1.1",
-    "hubot-slack": "^3.2.1",
+    "hubot-slack": "^3.3.0",
     "hubot-youtube": "^0.1.2",
     "time": "^0.11.1"
   },

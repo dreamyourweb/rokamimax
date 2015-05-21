@@ -1,6 +1,6 @@
 # Description:
 #   Defines periodic executions
-HubotCron = require 'hubot-cronjob'
+# HubotCron = require 'hubot-cronjob'
  
 # module.exports = (robot) ->
 #   tz = 'Europe/Amsterdam'
@@ -14,9 +14,9 @@ HubotCron = require 'hubot-cronjob'
 #   everyFiveMinutes = ->
 #     robot.messageRoom room, 'I will nag you every 5 minutes'
 
-module.exports = (robot) ->
-  pattern = '* * * * 1-5'
-  timezone = 'Europe/Amsterdam'
-  fn = robot.messageRoom 'general', 'Testing a cron job...'
-  console.log('cronjob')
-  new HubotCron pattern, timezone, fn
+# module.exports = (robot) ->
+#   pattern = '* * * * 1-5'
+#   timezone = 'Europe/Amsterdam'
+#   fn = robot.messageRoom 'general', 'Testing a cron job...'
+#   console.log('cronjob')
+#   new HubotCron pattern, timezone, fn

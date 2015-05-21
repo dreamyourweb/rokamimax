@@ -24,7 +24,7 @@ module.exports = (robot) ->
     msg.emote "jumping!"
 
   robot.respond /who/i, (msg) ->
-    msg.send msg.random ["Bram", "Joris", "Andres", "Vera", "Hanneke", "Saiden", "Stijn", "Marijn"]
+    msg.send msg.random ["Bram", "Joris", "Andres", "Vera", "Hanneke", "Saiden", "Stijn", "Marijn", "Steven", "Geert", "Maarten", "Daniel", "Jeroen", "Linus"]
 
   robot.hear /your'e/i, (msg) ->
     msg.send "you're"

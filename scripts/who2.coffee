@@ -20,3 +20,5 @@ module.exports = (robot) ->
 
   robot.respond /which team/i, (msg) ->
     msg.send msg.random ["Orikami", "Symax", "Both", "None"]
+  robot.respond /you dead?/i, (msg) ->
+  	msg.send "No"
